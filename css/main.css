@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/* CSS Document */
-
-/*Remove this rule, this is only for demo purposes to make the boxes black with white text
-The line height on the <p> tag gives each box a height value*/
 
 p
 {
@@ -13,8 +9,7 @@ p
 	margin: 0;
 }
 
-/*basic reset*/
-/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+
 
 div,p,body,header,footer,section,article,nav 
 { 
@@ -24,12 +19,12 @@ div,p,body,header,footer,section,article,nav
 
 img 
 { 
-	border: none; /*Remove border if image is a link*/
+	border: none; 
 	margin: 0; 
 	padding: 0; 
 }
 
-/*html selectors*/
+
 
 body 
 {
@@ -89,11 +84,6 @@ a:hover, a:active
 	padding: 20px;
 	width: 200px;
 }
-
-/*This is also a flex item*/
-/*We use margin left auto to send it all the way to the right*/
-
-
 #promo 
 {
 	margin-top: 40px;
@@ -103,8 +93,6 @@ a:hover, a:active
 	flex-direction: row;
   	justify-content: flex-start;
 }
-
-/*Get rid of this, here just to give different height to promo*/
 #promo p 
 {
 	line-height: 250px;
@@ -159,7 +147,7 @@ a:hover, a:active
 	width: 310px;
 }
 
-/*Page 2*/
+/*contact us page*/
 
 #contentCon {
 	margin-top: 40px;
@@ -169,8 +157,18 @@ a:hover, a:active
 	flex-direction: row;
   	justify-content: flex-start;
 }
+#mainNav {
+  width: 350px;
+  height: 100px;
+}
 
-/*Get rid of this, here just to give different height to promo*/
+#logo
+{
+	
+	padding: 20px;
+	width: 200px;
+}
+
 #contentCon p 
 {
 	line-height: 630px;
